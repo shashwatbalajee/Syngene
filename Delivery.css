@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: linear-gradient(124deg,
+
+    #9334fa 3.76%,
+
+    #a15afd 46.37%,
+
+    #3e1bb1 100%);
+    color: white;
+    font-weight: 500;
+}
+.heading{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 60px;
+    /* background: linear-gradient(90deg, rgb(216, 66, 219) 0%, rgba(157, 111, 230, 0.671) 48%, rgb(216, 37, 219) 100%); */
+    background: linear-gradient(91deg, rgb(224, 133, 221),rgb(105, 84, 235),rgb(101, 45, 192))
+}
+.maincontainer{
+    width: 100vw;
+}
+.wrapper1,.wrapper2,.wrapper3{
+    width: 92vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.title{
+    margin-left: 52px;
+}
+.plus{
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 28px;
+}
+.plus2{
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 28px;
+}
+.wrap1_div input{
+    width: 520px;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: 2px solid white;
+    color:white;
+    color-scheme: dark;
+}
+.wrapper2 input{
+    width: 380px;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: 2px solid white;
+    color:white;
+    color-scheme: dark;
+}
+.wrapper3 input{
+    width: 320px;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: 2px solid white;
+    color:white;
+    color-scheme: dark;
+}
+.wrapper1 input::placeholder,.wrapper2 input::placeholder,.wrapper3 input::placeholder{
+    color: white;
+}
+#wrap3_div{
+    padding-right: 50px;
+}
+body input{
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    padding: 7px 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin: 0px 15px;
+    color: white;
+    /* background: linear-gradient(90deg, rgb(216, 66, 219) 0%, rgba(157, 111, 230, 0.671) 48%); */
+    background: linear-gradient(93deg, #d391d2 0.7%,   #836cdf 96.14%)
+}
+
+input[type=radio]{
+    appearance: none;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+input[type=radio]:checked {
+    background-color: rgb(255, 255, 255);
+ }

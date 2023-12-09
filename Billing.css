@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.heading{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px 20px;
+    /* background: linear-gradient(90deg, rgb(216, 66, 219) 0%, rgba(157, 111, 230, 0.671) 48%, rgb(216, 37, 219) 100%); */
+    background: linear-gradient(91deg, rgb(224, 133, 221),rgb(105, 84, 235),rgb(101, 45, 192))
+}
+.container{
+    height: 94vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    /* background: linear-gradient(145deg, rgba(156,2,158,1) 0%, rgba(121,9,100,0.5215336134453781) 48%, rgba(156,2,158,1) 100%); */
+    background: linear-gradient(124deg,
+
+    #9334fa 3.76%,
+
+    #a15afd 46.37%,
+
+    #3e1bb1 100%)
+}
+.title{
+    font-size: 23px;
+    padding: 50px 20px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.item input{
+    width: 30vw;
+    border-radius: 7px;
+    padding: 7px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    color-scheme: dark;
+}
+.item input::placeholder{
+    color: aliceblue;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn button{
+    padding: 7px 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin: 5px 15px;
+    color: white;
+    /* background: linear-gradient(90deg, rgb(216, 66, 219) 0%, rgba(157, 111, 230, 0.671) 48%); */
+    background: linear-gradient(93deg, #d391d2 0.7%,   #836cdf 96.14%)
+}

@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    font-family: 'Inter', 'sans-serif';
+}
+
+.box {
+    width: 665px;
+    height: 500px;
+    border: 1px solid #0000002e;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-left: 300px;
+    background: linear-gradient(124deg,
+            #9334FA 3.76%,
+            #A15AFD 46.37%,
+            #3E1BB1 100%);
+}
+
+.leadbox {
+    width: 665px;
+    height: 42px;
+    border: 1px solid #0000002b;
+    border-radius: 4px;
+    margin-left: -1px;
+    /* background: linear-gradient(91deg, 
+    rgb(235 112 202 / 36%) 0%,
+    rgb(105 84 235 / 79%) 43.66%, 
+    rgb(101 45 192 / 68%) 89.27%, 
+    rgb(101 45 192 / 68%) 89.27%); */
+    background: linear-gradient(91deg, rgb(224, 133, 221),rgb(105, 84, 235),rgb(101, 45, 192));
+}
+
+.leadbox h5 {
+    font-size: x-large;
+    font-weight: bold;  
+    color: white;
+    margin-top: 4px;
+    margin-left: 28px;
+    /* text-align: center; */
+}
+
+.container {
+    display: flex;
+}
+
+.headingtype h4 {
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    margin-left: 20px;
+    line-height: 10px;
+    
+}
+
+.rdobtn {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: -12px;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+}
+
+.inbound {
+    font-size: medium;
+    color: white;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 34px;
+}
+
+.outbound {
+    font-size: medium;
+    color: white;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 32px;
+}
+
+.date h4 {
+    font-size: medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 140px;
+    line-height: 10px;
+}
+
+.date input {
+    width: 172px;
+    height: 35px;
+    border-radius: 4px;
+    margin-left: 140px;
+    margin-top: -12px;
+    position: absolute;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.service h4 {
+    font-size: medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 150px;
+    line-height: 10px;
+} 
+
+.service select {
+    width: 172px;
+    height: 39px;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.name h4 {
+    font-size:medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 18px;
+    line-height: 42px;
+    margin-top: 15px;
+}
+
+.name input {
+    width: 200px;
+    height: 32px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 18px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.mail h4 {
+    font-size: medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 98px;
+    line-height: 42px;
+    margin-top: 15px;
+}
+
+.mail input {
+    width: 172px;
+    height: 32px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 98px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.number h4 {
+    font-size: medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 130px;
+    line-height: 42px;
+    margin-top: 15px;
+}
+
+.number input {
+    width: 162px;
+    height: 32px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 132px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.cstmrtype h4{
+    font-size: medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 18px;
+    line-height: 42px;
+    margin-top: 20px;
+}
+
+.cstmrtype select {
+    width: 206px;
+    height: 36px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 18px;
+}
+
+.description h4 {
+    font-size:medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 104px;
+    line-height: 42px;
+    margin-top: 17px;
+}
+
+.description input {
+    width: 357px;
+    height: 94px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 104px;
+    border: 1px solid white;  
+    background-color: transparent;  
+    color: white;
+}
+
+.sub h4 {
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    margin-left: 18px;
+    line-height: 40px;
+    margin-top: 15px;
+    
+}
+
+.rdobtn1 {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -25px;
+    width: 15px;
+    height: 15px;
+}
+
+.yes {
+    font-size: medium;
+    color: white;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 34px;
+}
+
+.no {
+    font-size: medium;
+    color: white;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 34px;
+}
+
+.qualified h4 {
+    font-size: medium;
+    font-weight: normal;
+    color: white;
+    margin-left: 18px;
+    line-height: 40px;
+    margin-top: -30px;
+}
+
+.rdobtn2 {
+    position: absolute;
+    margin-left: 16px;
+    margin-top: -25px;
+    width: 15px;
+    height: 15px;
+}
+
+.yes1 {
+    font-size: medium;
+    color: white;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 36px;
+}
+
+.no1 {
+    font-size: medium;
+    color: white;
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 38px;
+}
+
+.date1 h4 {
+    font-size: medium;
+    color: white;
+    font-weight: normal;
+    margin-left: 51px;
+    line-height: 42px;
+    margin-top: -33px;
+}
+
+.date1 input {
+    width: 162px;
+    height: 32px;
+    border-radius: 4px;
+    margin-left: 50px;
+    margin-top: -28px;
+    position: absolute;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.save button {
+    width: 74px;
+    height: 33px;
+    border-radius: 4px;
+    background: linear-gradient(93deg, #d391d2 0.7%,   #836cdf 96.14%);
+    position: absolute;
+    margin-left: 274px;
+    margin-top: -8px;
+    border: 1px solid white;
+    color:white
+}
+
+.next button {
+    width: 74px;
+    height: 33px;
+    border-radius: 4px;
+    background: linear-gradient(93deg, #d391d2 0.7%, #836cdf 96.14%);
+    position: absolute;
+    margin-left: 364px;
+    margin-top: -8px;
+    border: 1px solid white;
+    color:white;
+}

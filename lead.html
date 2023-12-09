@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lead</title>
+  <link rel="stylesheet" href="lead.css">
+</head>
+
+<body>
+  <section>
+    <div class="box">
+      <div class="leadbox">
+        <h5>Leads </h5>
+      </div>
+
+      <div class="container">
+        <div class="headingtype">
+          <h4>Lead Type:</h4>
+          <input class="rdobtn" type="radio" id="inbound" value="inbound" name="leadtype">
+          <label class="inbound" for="inbound">Inbound</label><br />
+          <input class="rdobtn" type="radio" id="outbound" value="outbound" name="leadtype">
+          <label class="outbound" for="outbound">Outbound</label>
+        </div>
+
+        <div class="date">
+          <h4>Date:</h4>
+          <div>
+            <input type="date" id="date" name="date">
+          </div>
+        </div>
+
+        <div class="service">
+          <h4>Service Type:</h4>
+          <div>
+            <select name="service" id="service">
+              <option disabled selected>Please choose an option</option>
+              <option value="Data and AI" style="color: black;" disabled>Data and AI</option>
+              <option value="Apps and Infra" style="color: black;" disabled>Apps and Infra</option>
+              <option value="Business Apps" style="color: black;" disabled>Business Apps</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="name">
+          <h4>Customer Name:</h4>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="mail">
+          <h4>Email Id:</h4>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="number">
+          <h4>Contact Number:</h4>
+          <input type="text" id="text" name="text">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="cstmrtype">
+          <h4>Customer Type:</h4>
+          <select name="customer" id="customer">
+            <option disabled selected>Please choose an option</option>
+            <option value="SMC-Small Medium Commercials" style="color: black;" disabled>SMC-Small Medium Commercials</option>
+            <option value="SMB-Small Medium Business" style="color: black;" disabled>SMB-Small Medium Business</option>
+            <option value="Enterprise" style="color: black;" disabled>Enterprise</option>
+          </select>
+        </div>
+
+        <div class="description">
+          <h4>Requirement Description:</h4>
+          <input type="text" id="desc" name="desc">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="sub">
+          <h4>Azure Sub:</h4>
+          <input class="rdobtn1" type="radio" name="azuresub" id="azuresub" value="azuresub">
+          <label class="yes" for="yes" >Yes</label><br/>
+          <input class="rdobtn1" type="radio" name="azuresub" id="azuresub" value="azuresub">
+          <label class="no" for="no" >No</label><br/>
+        </div>
+      </div>  
+       
+      <div class="container">
+        <div class="qualified">
+          <h4>Qualified for Pre Sales:</h4>
+          <input class="rdobtn2" type="radio" name="qualified" id="qualified" value="qualified">
+          <label class="yes1" for="yes" >Yes</label><br/>
+          <input class="rdobtn2" type="radio" name="qualified" id="qualified" value="qualified">
+          <label class="no1" for="no" >No</label><br/>
+        </div>
+
+        <div class="date1">
+          <h4>Date of qualified to Pre Sales:</h4>
+          <input type="date" id="date" name="date">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="save">
+          <button type="button">Save</button>
+        </div>
+
+        <div class="next">
+          <button type="button">Next</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
